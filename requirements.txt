@@ -1,12 +1,35 @@
-numpy
-pandas
-opencv-python
-scikit-image
-scikit-learn
-scikit-fuzzy
-scipy
-matplotlib
-seaborn
-tensorflow
-kaggle
-imbalanced-learn
+# Core ML & Data Processing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+scikit-image>=0.18.0
+scikit-fuzzy>=0.4.2
+
+# Computer Vision
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
+
+# Deep Learning (OPTIONAL - only needed for CNN model)
+# Note: TensorFlow not available for Python 3.14 yet
+# If you want CNN training, downgrade to Python 3.11 or 3.12:
+#   tensorflow>=2.10.0 (for standard CPUs)
+#   tensorflow-macos>=2.13.0 (for Apple Silicon Macs)
+
+# Data Download
+kaggle>=1.5.12
+imbalanced-learn>=0.8.0
+
+# Visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Web Application
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.2
+
+# Utilities
+pillow>=8.0.0
+tqdm>=4.62.0
+python-dotenv>=0.19.0
