@@ -1,0 +1,7 @@
+.DS_Store
+kaggle.json
+data/
+results/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
